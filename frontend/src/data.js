@@ -1,0 +1,53 @@
+const data = {
+   products: [
+      {
+         name: 'Nike Slim Shirt',
+         slug: 'nike-slim-shirt',
+         category: 'shirts',
+         image: '/images/p1.jpg',
+         price: 120,
+         countInStock: 10,
+         brand: 'Nike',
+         rating: 4.5,
+         numReviews: 10,
+         description: 'High quality shirt',
+      },
+      {
+        name: 'Nike Fit Pant',
+        slug: 'nike-fit-pant',
+        category: 'shirts',
+        image: '/images/p2.jpg', //679px X 829px
+        price: 85,
+        countInStock: 30,
+        brand: 'Nike',
+        rating: 3.5,
+        numReviews: 36,
+        description: 'High quality shirt',
+     },
+     {
+        name: 'Adidas Fit Pant',
+        slug: 'adidas-fit-pant',
+        category: 'shirts',
+        image: '/images/p3.jpg',
+        price: 65,
+        countInStock: 5,
+        brand: 'Puma ',
+        rating: 4 ,
+        numReviews: 10,
+        description: 'High quality shirt',
+     }, 
+     {
+        name: 'Besson Fit Pant',
+        slug: 'besson-fit-pant',
+        category: 'shoes',
+        image: '/images/p4.jpg',
+        price: 35,
+        countInStock: 39,
+        brand: 'Besson ',
+        rating: 5 ,
+        numReviews: 20, 
+        description: 'High quality shoes',
+     }, 
+   ],
+};
+ export default data;
